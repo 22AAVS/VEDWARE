@@ -69,7 +69,7 @@ body {
 .headLogoText {
     font-family: "Bebas Neue", sans-serif;
     font-style: normal;
-    font-size: clamp(0.5rem, 1.85rem, 2rem) ;
+    font-size: clamp(0.5rem, 1.25rem, 2rem) ;
     font-weight: 600;
     color: white;
 }
@@ -943,7 +943,7 @@ textarea.w-input {
  }
 
  .footer-section {
-  width: 100;
+  width: 40%;
  }
  .footer-container {
   padding-left: 20px;
