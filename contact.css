@@ -367,7 +367,7 @@ body {
   /* ABOUT US BANNER  */
 
   .about-us-banner {
-    background-image: url("./assets/bg1.JPG") ;
+    background-image: url("./assets/bg1.jpg") ;
     background-position: 0 0, 100% 100%;
     background-repeat: repeat, repeat;
     background-size: auto, cover;
