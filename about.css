@@ -1238,7 +1238,7 @@ span.leader-acc {
 .footer-contact-link-wrap {
   grid-column-gap: 50px;
   grid-row-gap: 10px;
-  flex-direction: row;
+  flex-direction: column;
   margin-top: 2px;
   display: flex;
   line-height: 1.5;
