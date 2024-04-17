@@ -186,7 +186,7 @@ body {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  height: auto;
+  height: 75px;
   padding-left: 50px;
   padding-right: 100px;
   background-color:rgba(0, 0, 0, 0.1);
@@ -705,6 +705,8 @@ body {
 @media screen and (max-width: 767px) {
   .section-title {
     font-size: 30px;
+    margin-top:50px ;
+    text-align: center;
   }
 
   .service-card {
@@ -1363,6 +1365,32 @@ body {
   margin-top: 0;
 }
 
+@media screen and (max-width: 1050px) {
+  .footer-grid {
+    grid-column-gap: 50px;
+    grid-row-gap: 30px;
+    grid-template-rows: auto;
+    grid-template-columns: 1.2fr .7fr .75fr;
+ } 
+
+ .copyright-container {
+  padding-left: 24px;
+  padding-right: 24px;
+ }
+
+ .footer-contact-link-wrap {
+  margin-top: 0;
+  flex-direction: column;
+ }
+
+ .copyright-wrap {
+  grid-column-gap: 10px;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 0;
+ }
+}
+
 @media screen and (max-width: 991px) {
   .footer-grid {
     grid-column-gap: 50px;
@@ -1374,6 +1402,11 @@ body {
  .copyright-container {
   padding-left: 24px;
   padding-right: 24px;
+ }
+
+ .footer-contact-link-wrap {
+  margin-top: 0;
+  flex-direction: column;
  }
 
  .copyright-wrap {
