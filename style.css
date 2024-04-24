@@ -383,7 +383,7 @@ video {
 /* SERVICE SECTION  */
 
 .service-section {
-  padding-top: 100px;
+  padding-top: 50px;
   padding-bottom: 80px;
 }
 
@@ -519,7 +519,7 @@ video {
 }
 
 .service-image-wrap {
-  background-image: linear-gradient(to top, #091242, rgba(65, 72, 109, .36) 34%, rgba(255, 255, 255, 0) 85%, rgba(187, 190, 203, .13)), url("./assets/Services\ Main.png");
+  background-image: linear-gradient(to top, #091242, rgba(65, 72, 109, .36) 34%, rgba(255, 255, 255, 0) 85%, rgba(187, 190, 203, .13)), url("./assets/Home\ Page\ Main.png");
   background-position: 0 0, 0 0;
   background-size: auto, auto;
   padding-top: 450px;
@@ -721,7 +721,7 @@ video {
 
 /* IMAGE SECTION  */
 
-.image-section {
+/* .image-section {
   background-image: url("./assets/Home\ Page\ Main.png");
   background-position: 50%;
   background-repeat: no-repeat;
@@ -732,7 +732,7 @@ video {
   padding-top: 180px;
   padding-bottom: 600px;
   position: relative;
-}
+} */
 
 /* FOOTER SECTION  */
 
@@ -1384,7 +1384,7 @@ video {
 /* ABOUT US BANNER  */
 
 .about-us-banner {
-  background-image:  url("./assets/bg2.jpg");
+  background-image:  url("./assets/Services\ Main.png");
   background-position: 0 0, 100% 100%;
   background-repeat: repeat, repeat;
   background-size: auto, cover;
