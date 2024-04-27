@@ -1399,14 +1399,12 @@ video {
 
 .about-us-banner {
   background-image:  url("./assets/Services\ Main.png");
-  background-position: 0 0, 100% 100%;
-  background-repeat: repeat, repeat;
-  background-size: auto, cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-background-size: contain;
+  -moz-background-size:contain;
+  -o-background-size: contain;
   background-size: cover;
-  /* margin-top: -81px; */
   padding-top: 200px;
   padding-bottom: 125px;
   position: relative;
